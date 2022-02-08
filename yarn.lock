@@ -5848,7 +5848,7 @@ __metadata:
     line-column: 1.0.2
     lodash: 4.17.21
     lodash-decorators: 6.0.1
-    lru-cache: 6.0.0
+    lru-cache: 7.2.0
     proxyquire: 2.1.3
     toml: 3.0.0
     ts-morph: 13.0.3
@@ -20455,12 +20455,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:6.0.0, lru-cache@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "lru-cache@npm:6.0.0"
-  dependencies:
-    yallist: ^4.0.0
-  checksum: cb53e582785c48187d7a188d3379c181b5ca2a9c78d2bce3e7dee36f32761d1c42983da3fe12b55cb74e1779fa94cdc2e5367c028a9b35317184ede0c07a30a9
+"lru-cache@npm:7.2.0":
+  version: 7.2.0
+  resolution: "lru-cache@npm:7.2.0"
+  checksum: ba6a252ec60e6554eed04932f03abd0fcd2d085c59c9e15b8760fe5b51a5c7f03f8da488cca81383b1df11c97a95dff5fb55ae16fbffdc727b95c1b29cbf62bd
   languageName: node
   linkType: hard
 
@@ -20470,6 +20468,15 @@ fsevents@^1.2.7:
   dependencies:
     yallist: ^3.0.2
   checksum: 89b2ef2ef45f543011e38737b8a8622a2f8998cddf0e5437174ef8f1f70a8b9d14a918ab3e232cb3ba343b7abddffa667f0b59075b2b80e6b4d63c3de6127482
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "lru-cache@npm:6.0.0"
+  dependencies:
+    yallist: ^4.0.0
+  checksum: cb53e582785c48187d7a188d3379c181b5ca2a9c78d2bce3e7dee36f32761d1c42983da3fe12b55cb74e1779fa94cdc2e5367c028a9b35317184ede0c07a30a9
   languageName: node
   linkType: hard
 
